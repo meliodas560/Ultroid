@@ -43,7 +43,7 @@ async def _help(ult):
     if plug:
         try:
             if plug in HELP["Official"]:
-                output = f"**Plugin** - `{plug}`\n"
+                output = f"**MODUL** - `{plug}`\n"
                 for i in HELP["Official"][plug]:
                     output += i
                 output += "\n© @meliodasanu"
