@@ -36,14 +36,14 @@ _main_help_menu = [
 ]
 
 
-@ultroid_cmd(pattern="help( (.*)|$)")
+@ultroid_cmd(pattern="help( (,*)|$)")
 async def _help(ult):
     plug = ult.pattern_match.group(1).strip()
     chat = await ult.get_chat()
     if plug:
         try:
             if plug in HELP["Official"]:
-                output = f"**MODUL** - `{plug}`\n"
+                output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["Official"][plug]:
                     output += i
                 output += "\n© @meliodasanu"
