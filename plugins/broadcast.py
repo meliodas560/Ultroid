@@ -23,7 +23,7 @@ KeyM = KeyManager("BROADCAST", cast=list)
 
 
 @ultroid_cmd(
-    pattern="addch( (.*)|$)",
+    pattern="addch( (,*)|$)",
     allow_sudo=False,
 )
 async def broadcast_adder(event):
