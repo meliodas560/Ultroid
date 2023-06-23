@@ -69,7 +69,8 @@ NOSPAM_CHAT = [
     -1001050982793,  # Python
     -1001256902287,  # DurovsChat
     -1001473548283,  # SharingUserbot
-]
+    -1001982790377,  # cemarasupoot
+ ]
 
 KANGING_STR = [
     "Using Witchery to kang this sticker...",
