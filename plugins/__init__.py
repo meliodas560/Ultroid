@@ -70,6 +70,11 @@ NOSPAM_CHAT = [
     -1001256902287,  # DurovsChat
     -1001473548283,  # SharingUserbot
     -1001982790377,  # cemarasupoot
+    -1001876947449,  # caritemanbaruvl
+    -1001597459897,  # virtuallimited
+    -1001974415272,  # stedylog
+    -1001608701614,  # uputsupoprt
+    -1001854573739,  # meliodassupoort
  ]
 
 KANGING_STR = [
