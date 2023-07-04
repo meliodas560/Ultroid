@@ -430,7 +430,7 @@ async def _(e):
     await xx.edit(gb_msg)
 
 
-@ultroid_cmd(pattern="g(admin|)cast( (.*)|$)", fullsudo=True)
+@ultroid_cmd(pattern="g(admin|)cast( (-*)|$)", fullsudo=True)
 async def gcast(event):
     text, btn, reply = "", None, None
     if xx := event.pattern_match.group(2):
@@ -447,7 +447,7 @@ async def gcast(event):
             event, "`Give some text to Globally Broadcast or reply a message..`"
         )
 
-    kk = await event.eor("`Globally Broadcasting Msg...`")
+    kk = await event.eor("`Globally Broadcasting Anjeng...`")
     er = 0
     done = 0
     err = ""
